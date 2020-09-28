@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "serve": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.0",
+    "int64-buffer": "^0.99.1007",
+    "leb": "^0.3.0",
+    "uleb128": "^1.0.1",
+    "xregexp": "^4.3.0"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.11.5",
+    "@types/node": "^14.10.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
