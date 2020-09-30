@@ -11,13 +11,9 @@ google-token.json
 *.csv
 users.yaml
 *.xml
-/.idea/*
 db-backups
-/.idea
+.idea
+build
 docker-compose.dev.yaml
 
-./.backup
-
 /.env
-
-hh-tampermonkey/widget/.cache
