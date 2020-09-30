@@ -1,6 +1,6 @@
 {
   "name": "lcs-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "build/lib/index.js",
   "description": "Implementation of the LCS (Libra Canonical Serialization) protocol",
   "types": "build/lib/index.d.ts",
@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "serve": "nodemon src/example.ts",
-    "build": "tsc",
+    "build": "rimraf ./build && tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "yarn run build",
@@ -28,7 +28,9 @@
     "version": "yarn run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "files": ["build/**/*"],
+  "files": [
+    "build/**/*"
+  ],
   "dependencies": {
     "bignumber.js": "^9.0.0",
     "leb": "^0.3.0",
@@ -40,6 +42,7 @@
     "@types/xregexp": "^4.3.0",
     "nodemon": "^2.0.4",
     "prettier": "^2.1.2",
+    "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",

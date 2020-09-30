@@ -6,4 +6,5 @@ Object.keys(types).forEach((typeName: string) => {
   LCS.registerType(typeName, types[typeName]);
 });
 
+module.exports = LCS;
 export default LCS;
