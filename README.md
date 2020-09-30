@@ -21,7 +21,7 @@ LCS library supports the following basic types:
 * address
 * vector<TYPE>
 
-```JavaScript
+```js
 const lcs = require('lcs-js');
 
 function bufferFromHex(hex) {
@@ -40,7 +40,7 @@ console.log(result); // 333
 
 ### Register custom type
 
-```JavaScript
+```js
 const lcs = require('lcs-js');
 
 const hex = '03646669'
@@ -65,7 +65,7 @@ console.log(result); // dfi
 
 ### Register custom structure
 
-```JavaScript
+```js
 const lcs = require('lcs-js');
 
 const hex = '4d01000000000000000000000000000003646669db4b0ed53d2fd0a74ce8f0d106e7ab144eb0fbab00'

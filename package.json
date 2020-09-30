@@ -1,6 +1,6 @@
 {
   "name": "lcs-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "build/lib/index.js",
   "description": "Implementation of the LCS (Libra Canonical Serialization) protocol",
   "types": "build/lib/index.d.ts",
